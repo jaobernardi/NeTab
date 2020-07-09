@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NeTab:jar">
+    <output-path>$USER_HOME$/Desktop/</output-path>
+    <root id="archive" name="NeTab.jar">
+      <element id="module-output" name="NeTab" />
+    </root>
+  </artifact>
+</component>
