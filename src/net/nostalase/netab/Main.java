@@ -1,5 +1,6 @@
 package net.nostalase.netab;
 
+import net.minecraft.server.v1_16_R1.MinecraftServer;
 import net.nostalase.netab.events.Listen;
 import net.nostalase.netab.tasks.TabUpdate;
 import org.bukkit.Bukkit;

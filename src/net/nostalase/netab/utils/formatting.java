@@ -12,7 +12,7 @@ public class formatting {
 
 
         return input
-                .replace("$tps", String.valueOf(MinecraftServer.getServer().recentTps[0]))
+                .replace("$tps", String.valueOf(MinecraftServer.getServer().recentTps[0]).substring(0, 4))
                 .replace("$online_time", time_format(now_ut-Main.online_time.get(player.getUniqueId())))
                 .replace("$player", player.getDisplayName())
                 .replace("$max_players", String.valueOf(Bukkit.getMaxPlayers()))
